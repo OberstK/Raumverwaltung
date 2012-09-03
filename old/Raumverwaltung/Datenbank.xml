@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_05" class="java.beans.XMLDecoder">
+ <object class="raeume.Konferenzraum">
+  <void property="groesse">
+   <int>5</int>
+  </void>
+  <void property="name">
+   <string>Test</string>
+  </void>
+  <void property="status">
+   <boolean>true</boolean>
+  </void>
+  <void property="typ">
+   <string>Konferenzraum</string>
+  </void>
+ </object>
+ <object class="raeume.Konferenzraum">
+  <void property="groesse">
+   <int>4</int>
+  </void>
+  <void property="name">
+   <string>Test2</string>
+  </void>
+  <void property="status">
+   <boolean>true</boolean>
+  </void>
+  <void property="typ">
+   <string>Konferenzraum</string>
+  </void>
+ </object>
+ <object class="raeume.Toilette">
+  <void property="geschlecht">
+   <boolean>true</boolean>
+  </void>
+  <void property="groesse">
+   <int>14</int>
+  </void>
+  <void property="name">
+   <string>ToiletteAnders</string>
+  </void>
+  <void property="sauber">
+   <string>sauber</string>
+  </void>
+  <void property="typ">
+   <string>Toilette</string>
+  </void>
+ </object>
+</java>
